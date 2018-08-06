@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DelimitedParser</id>
+    <version>1.0.0</version>
+    <title>DelimitedParser</title>
+    <authors>Railson Lima</authors>
+    <owners>Railson Lima</owners>
+    <projectUrl>https://github.com/railsonflima/DelimitedParser</projectUrl>
+    <description>This library convert your delimited file text into a model class. Is a simple way to parse files with delimited format.</description>
+    <copyright>Copyright ©2018 Railson Lima</copyright>
+  </metadata>
+</package>
