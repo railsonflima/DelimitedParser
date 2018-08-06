@@ -1,6 +1,22 @@
 # Delimited Parser
 DelimitedParser convert your delimited file text into a model class. Is a simple way to parse files with delimited format.
 
+# Installation
+
+The library is available via [NuGet](https://www.nuget.org/packages/DelimitedParser/) packages:
+
+### Package Manager
+
+```command
+Install-Package DelimitedParser -Version 1.0.0
+```
+
+### .NET CLI
+
+```command
+dotnet add package DelimitedParser --version 1.0.0
+```
+
 # Getting Starter
 
 Let's suppose that you have the following file delimited below:
