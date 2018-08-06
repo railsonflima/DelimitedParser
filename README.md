@@ -7,13 +7,13 @@ The library is available via [NuGet](https://www.nuget.org/packages/DelimitedPar
 
 ### Package Manager
 
-```command
+```powershell
 Install-Package DelimitedParser -Version 1.0.0
 ```
 
 ### .NET CLI
 
-```command
+```powershell
 dotnet add package DelimitedParser --version 1.0.0
 ```
 
