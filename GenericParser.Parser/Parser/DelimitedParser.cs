@@ -6,7 +6,7 @@ using System;
 using static GenericParser.FileManager.FileManagerService;
 using GenericParser.Utils.Extensions;
 
-namespace GenericParser.Parser
+namespace GenericParser.DelimitedParser.Parser
 {
     public class DelimitedParser<TModel>
         where TModel : class, new()

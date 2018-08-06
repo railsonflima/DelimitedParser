@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericParser.DelimitedParser", "GenericParser.Parser\GenericParser.DelimitedParser.csproj", "{52423019-C524-4E9E-AB7B-4E3F7280A71A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericParser.Emulator", "GenericParser.Emulator\GenericParser.Emulator.csproj", "{D9C5A115-EBE9-49FD-ACEC-46B681FF31B9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{52423019-C524-4E9E-AB7B-4E3F7280A71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52423019-C524-4E9E-AB7B-4E3F7280A71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52423019-C524-4E9E-AB7B-4E3F7280A71A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D9C5A115-EBE9-49FD-ACEC-46B681FF31B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D9C5A115-EBE9-49FD-ACEC-46B681FF31B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D9C5A115-EBE9-49FD-ACEC-46B681FF31B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D9C5A115-EBE9-49FD-ACEC-46B681FF31B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

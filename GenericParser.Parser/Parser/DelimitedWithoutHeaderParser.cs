@@ -1,7 +1,5 @@
-﻿using GenericParser.Parser;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace GenericParser.DelimitedParser.Parser
 {
