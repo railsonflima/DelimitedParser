@@ -12,13 +12,9 @@ namespace GenericParser.DelimitedParser.Parser
         where TModel : class, new()
     {
         public char Delimitator { get; set; } = ';';
-
         protected readonly string _path;
-
         private readonly IReadOnlyList<PropertyInfoWithAttribute<DelimitedHeaderAttribute>> _propertiesInfo;
-
         private static readonly int HeaderOrder = 1;
-
         public DelimitedParser(string path)
         {
             _path = path;
@@ -28,7 +24,6 @@ namespace GenericParser.DelimitedParser.Parser
             .Cast<DelimitedHeaderAttribute>().FirstOrDefault()))
             .ToList();
         }
-
         public IReadOnlyList<TModel> Parse()
         {
             try
@@ -47,18 +42,15 @@ namespace GenericParser.DelimitedParser.Parser
                 return null;
             }
         }
-
         protected virtual IEnumerable<string> Parse(IEnumerable<string> content)
         {
             return content;
         }
-
         private Func<string, int, KeyValuePair<string, string>> GroupData(string x)
         {
 
             return (a, i) => new KeyValuePair<string, string>(a, x.Split(Delimitator)[i]);
         }
-
         private TModel SetValueProperties(Dictionary<string, string> item)
         {
             var model = new TModel();

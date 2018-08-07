@@ -7,7 +7,6 @@ namespace GenericParser.Utils.Helpers
     {
         public PropertyInfo Property { get; private set; }
         public TAttribute Attribute { get; private set; }
-
         private PropertyInfoWithAttribute(PropertyInfo property, TAttribute attribute)
         {
             Property = property;

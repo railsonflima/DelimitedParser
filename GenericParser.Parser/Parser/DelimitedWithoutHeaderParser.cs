@@ -7,11 +7,9 @@ namespace GenericParser.DelimitedParser.Parser
         where TModel : class, new()
     {
         public string HeaderFile { get; set; } = string.Empty;
-
         public DelimitedWithoutHeaderParser(string path) : base(path)
         {
         }
-
         protected override IEnumerable<string> Parse(IEnumerable<string> content)
         {
 
