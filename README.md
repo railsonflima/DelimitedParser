@@ -43,10 +43,10 @@ namespace GenericParser.Emulator
         public string TestingPropString { get; set; }
 
         [DelimitedHeader("TESTING_02", DefaultValue = 0)]
-        public int TestingPropStringInt { get; set; }
+        public int TestingPropInt { get; set; }
 
         [DelimitedHeader("TESTING_03")]
-        public bool TestingPropStringBool { get; set; }
+        public bool TestingPropBool { get; set; }
     }
 }
 ```
